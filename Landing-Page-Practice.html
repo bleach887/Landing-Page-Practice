@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page Practice.com</title>
 
-  <link rel="stylesheet" href="styles/header-hero.css">
+  <link rel="stylesheet" href="styles/style.css">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <Header>
+  <header>
     <nav>
       <p class="logo-holder">Header Logo</p>
       <ul>
         <li>
-          <a>header link one</a>
+          <a href="#">header link one</a>
         </li>
         <li>
-          <a>header link two</a>
+          <a href="#">header link two</a>
         </li>
         <li>
-          <a>header link three</a>
+          <a href="#">header link three</a>
         </li>
       </ul>
     </nav>
@@ -41,9 +41,8 @@
         this is a placeholder for an image
       </div>
     </section>
-  </Header>
+  </header>
 
-  <Body>
     <main>
       <h2>Some random information</h2>
       <div class="info-container">
@@ -78,15 +77,34 @@
     </main>
 
     <section class="testimonial">
-      <p class="quote">This is an inspiring quote, or a 
-        testimonial from a customer. Maybe it's just filling
-        up space, or maybe people will actually read it. 
-        Who knows? All I know is that it looks nice.        
+      <div class="quote-container">
+        <p class="quote">
+          This is an inspiring quote, or a 
+          testimonial from a customer. Maybe it's just filling
+          up space, or maybe people will actually read it. 
+          Who knows? All I know is that it looks nice.
+        </p>
+        <div class="quote-author">-Thor, God of Thunder</div>
+      </div>      
     </section>
-  </Body>
 
-  <Footer>
+    <section class="cta">
+      <div class="cta-text">
+        <h3>
+          Call to action! It's time!
+        </h3>
+        <p>
+          Sign up for our product by clicking
+          that button right over there!
+        </p>
+      </div>
+      <button class="cta-button">Sign up</button>
+    </section>
 
-  </Footer>
+  <footer>
+    <div>
+      Copyright @ The Odin Project 2021
+    </div>
+  </footer>
 </body>
 </html>
